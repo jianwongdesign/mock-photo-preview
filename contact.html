@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact · Christopher Loy</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="Start an enquiry with Christopher Loy." />
+  <meta name="theme-color" content="#000000" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial Black,sans-serif' font-size='34' fill='%23f4f2ee' letter-spacing='-3'%3EJL%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lexend:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/site.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="mark mono" href="index.html" aria-label="JL, home">JL</a>
+      <nav class="nav" id="site-nav" aria-label="Main">
+        <a href="photography.html">Photography</a>
+        <a href="videography.html">Videography</a>
+        <a href="illustration.html">Illustration</a>
+        <a href="couple-comedy.html">Couple Comedy</a>
+        <a href="about.html">About</a>
+      </nav>
+      <a class="btn btn-sm" href="contact.html">Enquire</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="crumb">Contact</p>
+        <h1 class="page-title">Let's make something.</h1>
+        <div class="page-meta"><p class="page-lead">Tell me a little about your project and I'll get back to you with ideas and next steps.</p></div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap contact-grid">
+        <form class="form" id="enquiry" data-to="hello@example.com" novalidate>
+          <div class="pair">
+            <div class="field" data-field="name">
+              <label for="f-name">Your name <b>*</b></label>
+              <input id="f-name" name="name" autocomplete="name" placeholder="Full name" aria-describedby="e-name" />
+              <span class="err" id="e-name">Please add your name.</span>
+            </div>
+            <div class="field" data-field="email">
+              <label for="f-email">Email <b>*</b></label>
+              <input id="f-email" name="email" type="email" autocomplete="email" placeholder="you@company.com" aria-describedby="e-email" />
+              <span class="err" id="e-email">Enter a valid email address.</span>
+            </div>
+          </div>
+          <fieldset class="field" data-field="service" style="border:0;min-width:0" aria-describedby="e-svc">
+            <legend style="font-size:13px;font-weight:500;color:var(--muted);margin-bottom:12px">What do you need? <b style="color:var(--ink);font-weight:500">*</b></legend>
+            <div class="chips"><input type="radio" name="service" id="svc-0" value="Photography" /><label for="svc-0">Photography</label><input type="radio" name="service" id="svc-1" value="Videography" /><label for="svc-1">Videography</label><input type="radio" name="service" id="svc-2" value="Illustration" /><label for="svc-2">Illustration</label><input type="radio" name="service" id="svc-3" value="Couple Comedy" /><label for="svc-3">Couple Comedy</label><input type="radio" name="service" id="svc-4" value="Not sure yet" /><label for="svc-4">Not sure yet</label></div>
+            <span class="err" id="e-svc">Pick the service closest to what you need, or "Not sure yet".</span>
+          </fieldset>
+          <div class="field" data-field="date">
+            <label for="f-date">Date or timeline <span>(optional)</span></label>
+            <input id="f-date" name="date" placeholder="e.g. 14 March, or sometime in Q2" />
+          </div>
+          <div class="field" data-field="message">
+            <label for="f-msg">Tell me about it <b>*</b></label>
+            <textarea id="f-msg" name="message" placeholder="The story, the people, where it will be shared…" aria-describedby="e-msg"></textarea>
+            <span class="err" id="e-msg">Add a sentence or two so I know where to start.</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:24px;flex-wrap:wrap">
+            <button class="btn" type="submit">Send enquiry <svg aria-hidden="true"><use href="assets/icons.svg#arrow"/></svg></button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+        <aside aria-label="Other ways to reach me">
+          <ul class="channels">
+            <li><small>Email</small><a href="mailto:hello@example.com">hello@example.com</a></li>
+            <li><small>WhatsApp</small><a href="https://wa.me/6589801183?text=Hi%20Chris%21%20I%20came%20across%20your%20website%20and%20I%27d%20love%20to%20talk%20about%20a%20project.%20When%27s%20a%20good%20time%20to%20chat%3F" target="_blank" rel="noopener">+65 8980 1183</a></li>
+            <li><small>Instagram</small><a href="#">@handle</a></li>
+            <li><small>TikTok</small><a href="#">@handle</a></li>
+            <li><small>YouTube</small><a href="#">@handle</a></li>
+            <li><small>Based in</small><span>City, Country</span></li>
+          </ul>
+          <span class="draft-note">Contact details are placeholders</span>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="foot-top">
+        <div>
+          <a class="mono" href="index.html" aria-label="JL, home">JL</a>
+          <p class="tagline">Christopher Loy · Visual Storyteller</p>
+        </div>
+        <div class="foot-col"><h4>Services</h4><ul><li><a href="photography.html">Photography</a></li><li><a href="videography.html">Videography</a></li><li><a href="illustration.html">Illustration</a></li><li><a href="couple-comedy.html">Couple Comedy</a></li></ul></div>
+        <div class="foot-col"><h4>Studio</h4><ul><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="mailto:hello@example.com">Email</a></li><li><a href="https://wa.me/6589801183?text=Hi%20Chris%21%20I%20came%20across%20your%20website%20and%20I%27d%20love%20to%20talk%20about%20a%20project.%20When%27s%20a%20good%20time%20to%20chat%3F" target="_blank" rel="noopener">WhatsApp</a></li></ul></div>
+        <div class="foot-col"><h4>Follow</h4><ul class="socials"><li><a href="#" aria-label="Instagram" title="Instagram"><svg aria-hidden="true"><use href="assets/icons.svg#instagram"/></svg></a></li><li><a href="#" aria-label="TikTok" title="TikTok"><svg aria-hidden="true"><use href="assets/icons.svg#tiktok"/></svg></a></li><li><a href="#" aria-label="YouTube" title="YouTube"><svg aria-hidden="true"><use href="assets/icons.svg#youtube"/></svg></a></li></ul></div>
+      </div>
+      <div class="foot-bottom"><span>© 2026 Christopher Loy</span><span>Social links and email are placeholders</span></div>
+    </div>
+  </footer>
+  <a class="wa-float" href="https://wa.me/6589801183?text=Hi%20Chris%21%20I%20came%20across%20your%20website%20and%20I%27d%20love%20to%20talk%20about%20a%20project.%20When%27s%20a%20good%20time%20to%20chat%3F" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <span class="wa-icon"><svg aria-hidden="true"><use href="assets/icons.svg#whatsapp"/></svg></span><span class="wa-label">Chat on WhatsApp</span>
+  </a>
+  <div class="preview-tag" aria-hidden="true">Client preview · not for distribution</div>
+  <script src="assets/site.js"></script>
+</body>
+</html>
